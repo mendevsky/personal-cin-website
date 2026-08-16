@@ -13,7 +13,7 @@ function Home (){
                 
                 <div className="rounded-md bg-gray-200 p-4 mt-15">
                     <p className="text-xl text-gray-800">
-                        I am a student at Universidade Federal de Pernambuco, currently pursuing a degree in Computer Science. I have a strong passion for technology and enjoy exploring new programming languages and frameworks. In my free time, I like to work on personal projects, study topics in Neurodiversity and explore the world of pop culture.
+                        My name is Iasmym Mendes and I am a student at Universidade Federal de Pernambuco, currently pursuing a degree in Computer Science. I have a strong passion for technology and enjoy exploring new programming languages and frameworks. In my free time, I like to work on personal projects, study topics in Neurodiversity and explore the world of pop culture.
                     </p>
                 </div>
             </div>

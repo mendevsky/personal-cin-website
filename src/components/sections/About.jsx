@@ -8,6 +8,7 @@ import { FaJsSquare } from "react-icons/fa";
 import { SiNasa } from "react-icons/si";
 import { GiBookCover } from "react-icons/gi";
 import { FaGithub } from "react-icons/fa";
+import { FaJava } from "react-icons/fa";
 
 function About() {
     return (
@@ -43,6 +44,9 @@ function About() {
                     </a>
                     <a href="https://github.com/" target="_blank" rel="noopener noreferrer" className="animate-bounce ml-4">
                         <FaGithub size={50} className="text-gray-800 hover:text-gray-600 transition-colors duration-300" />
+                    </a>
+                    <a href="https://www.java.com/" target="_blank" rel="noopener noreferrer" className="animate-bounce ml-4">
+                        <FaJava size={50} className="text-gray-800 hover:text-gray-600 transition-colors duration-300" />
                     </a>
 
                   </div>
