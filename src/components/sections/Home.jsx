@@ -5,10 +5,12 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 
 
+
 function Home (){
     return (
-        <div className="home grid grid-cols-2" id="home" >
-            <div className="flex justify-center items-center pt-35 flex-col px-4"> {/* Left side of the home section, where the student will be introduced */}
+
+        <section className="home grid grid-cols-2" id="home" >
+              <div className="flex justify-center items-center pt-35 flex-col px-4"> {/* Left side of the home section, where the student will be introduced */}
                 <p className="text-7xl">Hello, world!</p>
                 
                 <div className="rounded-md bg-gray-200 p-4 mt-15">
@@ -22,27 +24,28 @@ function Home (){
                 <img src={"src/assets/iasFace.png"} alt="Iasmym Mendes" className="h-120 w-auto border-4 border-white rounded-full" />
                 <div className="flex justify-center items-center mt-4">
                     <a href="https://github.com/mendevsky" target="_blank" rel="noopener noreferrer">
-                        <FaGithub size={50} className="text-gray-800 hover:text-gray-600 transition-colors duration-300" />
+                        <FaGithub size={50} className="text-gray-800 hover:text-gray-600 hover:animate-bounce transition-colors duration-300" />
                     </a>
                     <a href="https://www.linkedin.com/in/iaslmf/" target="_blank" rel="noopener noreferrer">
-                        <FaLinkedin size={50} className="text-gray-800 hover:text-gray-600 transition-colors duration-300 ml-4" />
+                        <FaLinkedin size={50} className="text-gray-800 hover:text-gray-600 hover:animate-bounce transition-colors duration-300 ml-4" />
                     </a>
                     <a href="mailto:ilmf@cin.ufpe.br" target="_blank" rel="noopener noreferrer">
-                        <MdOutlineAlternateEmail size={50} className="text-gray-800 hover:text-gray-600 transition-colors duration-300 ml-4" />
+                        <MdOutlineAlternateEmail size={50} className="text-gray-800 hover:text-gray-600 hover:animate-bounce transition-colors duration-300 ml-4" />
                     </a>
                     
                     <a href="https://www.instagram.com/iaslmf/" target="_blank" rel="noopener noreferrer"    >
-                        <FaInstagram size={50} className="text-gray-800 hover:text-gray-600 transition-colors duration-300 ml-4" />
+                        <FaInstagram size={50} className="text-gray-800 hover:text-gray-600 hover:animate-bounce transition-colors duration-300 ml-4" />
                     </a>
                     <a href="https://twitter.com/_iaslmf" target="_blank" rel="noopener noreferrer">
-                        <FaXTwitter size={50} className="text-gray-800 hover:text-gray-600 transition-colors duration-300 ml-4" />
+                        <FaXTwitter size={50} className="text-gray-800 hover:text-gray-600 hover:animate-bounce transition-colors duration-300 ml-4" />
                     </a>
 
 
 
                 </div>
             </div>
-        </div>
+        </section>
+
     )
 }
 
