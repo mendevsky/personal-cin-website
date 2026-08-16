@@ -1,5 +1,9 @@
 import emailjs from 'emailjs-com'
 import { useState } from 'react'
+import { FaGithub } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa6";
+import { FaLinkedin } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 
 function Contact() {
 
@@ -27,7 +31,7 @@ function Contact() {
 
     return (
 
-        <section className="min-h-screen flex justify-center items-center" id="contact">
+        <section className="grid grid-cols-2 w-full p-15 mt-5" id="contact">
             <div className="p-4 w-150">
                 <h2 className="text-5xl">Get in touch with me!
                 
@@ -50,6 +54,31 @@ function Contact() {
                 </h2>
 
             
+
+            </div>
+            
+            <div className="flex justify-center items-center pt-10 flex-col px-4">
+
+                <p className="text-5xl">
+                    Follow me on social media!
+                </p>
+
+                <div className="flex justify-center items-center mt-10">
+                    <a href="https://github.com/mendevsky" target="_blank" rel="noopener noreferrer">
+                        <FaGithub size={80} className="text-gray-800 hover:text-gray-600 hover:animate-bounce transition-colors duration-300" />
+                    </a>
+                    <a href="https://www.linkedin.com/in/iaslmf/" target="_blank" rel="noopener noreferrer">
+                        <FaLinkedin size={80} className="text-gray-800 hover:text-gray-600 hover:animate-bounce transition-colors duration-300 ml-4" />
+                    </a>
+                    <a href="https://www.instagram.com/iaslmf/" target="_blank" rel="noopener noreferrer"    >
+                        <FaInstagram size={80} className="text-gray-800 hover:text-gray-600 hover:animate-bounce transition-colors duration-300 ml-4" />
+                    </a>
+                    <a href="https://twitter.com/_iaslmf" target="_blank" rel="noopener noreferrer">
+                        <FaXTwitter size={80} className="text-gray-800 hover:text-gray-600 hover:animate-bounce transition-colors duration-300 ml-4" />
+                    </a>
+
+                </div>
+
 
             </div>
 
