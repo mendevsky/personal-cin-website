@@ -1,3 +1,6 @@
+import iasLogo from '../assets/iasLogo.svg';
+import cinLogo from '../assets/CInLogo.svg';
+
 const NavBar = [
   { name: 'Home', href: '#home', current: true },
   { name: 'About', href: '#about', current: false },
@@ -11,7 +14,7 @@ function NavigationBar() {
         <div className="fixed top-0 left-0 right-0 bg-red-900 p-4 flex justify-center items-center z-50">
             <div className="absolute left-4">
                 <a href="#home">
-                <img src="src\assets\iasLogo.svg" alt="Logo Ias" className="h-6 w-auto" />
+                <img src={iasLogo} alt="Logo Ias" className="h-6 w-auto" />
                 </a>
             </div>
 
@@ -35,7 +38,7 @@ function NavigationBar() {
 
             <div className="absolute right-4">
                 <a href="https://portal.cin.ufpe.br/" target="_blank" rel="noopener noreferrer">
-                <img src="src\assets\CInLogo.svg" alt="Logo CIn" className="h-10 w-auto" />
+                <img src={cinLogo} alt="Logo CIn" className="h-10 w-auto" />
                 </a>
             </div>
         

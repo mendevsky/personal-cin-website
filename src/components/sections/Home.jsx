@@ -3,8 +3,7 @@ import { MdOutlineAlternateEmail } from "react-icons/md";
 import { FaInstagram } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
-
-
+import iasFace from "../../assets/iasFace.png";
 
 
 function Home (){
@@ -23,7 +22,8 @@ function Home (){
             </div>
 
             <div className="flex justify-center items-center pt-10 flex-col px-4"> {/*Right side of the home section, with student photo and social media logos */}
-                <img src={"src/assets/iasFace.png"} alt="Iasmym Mendes" className="h-120 w-auto border-4 border-white rounded-full" />
+                <img src={iasFace} alt="Iasmym Mendes" className="h-120 w-auto border-4 border-white rounded-full" />
+
                 <div className="flex justify-center items-center mt-4">
                     <a href="https://github.com/mendevsky" target="_blank" rel="noopener noreferrer">
                         <FaGithub size={50} className="text-red-900 hover:text-red-600 hover:animate-bounce transition-colors duration-300" />
