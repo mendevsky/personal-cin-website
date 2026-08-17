@@ -6,10 +6,11 @@ import { FaXTwitter } from "react-icons/fa6";
 
 
 
+
 function Home (){
     return (
 
-        <section className="home grid grid-cols-2" id="home" >
+        <section className="home grid grid-cols-2 py-4" id="home">
               <div className="flex justify-center items-center pt-35 flex-col px-4"> {/* Left side of the home section, where the student will be introduced */}
                 <p className="text-7xl font-bold mb-10 bg-gradient-to-r from-red-900 to-red-900 bg-clip-text text-transparent">
                     Hello, world!</p>
@@ -45,7 +46,8 @@ function Home (){
 
                 </div>
             </div>
-        </section>
+       </section>
+
 
     )
 }

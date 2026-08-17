@@ -4,7 +4,6 @@ import { FaGithub } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
-
 function Contact() {
 
     const [formData, setFormData] = useState({
@@ -27,6 +26,7 @@ function Contact() {
     } 
 
     return (
+
 
         <section className="min-h-screen flex items-center justify-center py-20 " id="contact">
             <div className="px-4 w-full min-w-[200px] md:w-[400px] sm:w-2/3 p-6">
@@ -79,6 +79,7 @@ function Contact() {
 
 
         </section>
+
     );
 }
 

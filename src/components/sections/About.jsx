@@ -11,12 +11,15 @@ import { FaGithub } from "react-icons/fa";
 import { FaJava } from "react-icons/fa";
 
 
+
 function About() {
     return (
 
+
         <section className="about grid grid-cols-2" id="about">
             <div className="flex justify-center items-center pt-15 flex-col px-4">
-                <p className="text-7xl font-bold mb-10 bg-gradient-to-r from-red-900 to-red-900 bg-clip-text text-transparent">About Me</p>
+                <p className="text-7xl font-bold mb-10 py-10 bg-gradient-to-r from-red-900 to-red-900 bg-clip-text text-transparent">
+                    About Me</p>
 
                 <div className="p-6 rounded-xl border border-gray-200 shadow-md hover:translate-y-1 hover:border-red-500 hover:shadow-[0_2px_08px_rgba(255,0,0,0.3)] transition-all">
                     <p className="text-gray-700 mb-4">
@@ -79,6 +82,7 @@ function About() {
             </div>
 
         </section>
+
 
 
     )

@@ -1,4 +1,6 @@
 @import 'tailwindcss';
+
+
 :root {
     --font-space: 'Space Grotesk', sans-serif;
 }
@@ -6,3 +8,4 @@
 body {
     font-family: var(--font-space)
 }
+

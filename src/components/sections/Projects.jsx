@@ -1,5 +1,8 @@
+
+
 function Projects() {
     return (
+
         <section className="min-h-screen flex justify-center items-center py-20" id="projects">
 
             <div className="max-w-5xl mx-auto px-4">
@@ -62,6 +65,7 @@ function Projects() {
 
 
         </section>
+
     );
 }
 
